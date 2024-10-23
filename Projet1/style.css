@@ -1,0 +1,120 @@
+/* 
+Antoine Tessier - 20288121 
+
+*/
+
+/* Navigation bar and footer common to all pages */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  float: left;
+  list-style-type: none;
+  margin: 10px;
+}
+
+nav a:visited {
+  color: purple;
+}
+
+nav a:hover {
+  color: red;
+}
+
+footer {
+  background-color: darkgreen;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  list-style-type: none;
+  margin: 15px;
+  color: lightblue;
+  font-size: 20px;
+  align-content: center;
+}
+
+/* Accueil elements */
+
+.accueil {
+  text-align: center;
+  background-color: beige;
+}
+
+.img-accueil {
+  margin: 20px;
+  display: inline-block;
+}
+
+.header-accueil {
+  background: linear-gradient(to bottom, #00ff00, #006400);
+}
+
+/* Biographie related elements */
+
+.biographie {
+  text-align: center;
+}
+
+.biographie h3 {
+  font-weight: bold;
+  font-style: italic;
+  padding: 15px;
+}
+
+.biographie-element {
+  margin: 30px;
+  padding: 10px;
+}
+
+.chapitre1 {
+  background-color: darkolivegreen;
+}
+
+.chapitre2 {
+  background-color: olive;
+}
+
+.chapitre3 {
+  background-color: olivedrab;
+}
+
+/* Competance elements */
+
+.competence {
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+.cv-element {
+  text-align: justify;
+  margin: 30px;
+  float :left;
+  width: 20%;
+}
+
+.cv-element h2::first-letter {
+  font-size: xx-large;
+}
+
+.cv-element dt {
+  font-weight: bold;
+}
+
+.cv-element dd {
+  margin: 5px;
+}
+
+.cv-element li {
+    margin: 5px
+}
+
+
