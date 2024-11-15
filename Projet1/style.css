@@ -14,7 +14,7 @@ nav {
 nav li {
   float: left;
   list-style-type: none;
-  margin: 10px;
+  margin: 20px;
 }
 
 nav a:visited {
@@ -24,13 +24,24 @@ nav a:visited {
 nav a:hover {
   color: red;
 }
-
 footer {
-  background-color: darkgreen;
-  height: 300px;
-  width: 100%;
+  position : relative
+}
+
+footer div{
+  background-color: rgb(4, 56, 147);
+  height: 500px;
+  width: auto;
   display: flex;
+  align-items: center;
   justify-content: center;
+  list-style-type: none;
+}
+
+footer img {
+  position : absolute;
+  top : 0;
+  left : 0;
 }
 
 footer li {
@@ -45,7 +56,7 @@ footer li {
 
 .accueil {
   text-align: center;
-  background-color: beige;
+  background-image: linear-gradient(to bottom, rgb(40, 208, 246), rgb(4, 56, 147));;
 }
 
 .img-accueil {
@@ -53,18 +64,49 @@ footer li {
   display: inline-block;
 }
 
+.img-accueil img {
+  clip-path: polygon(108px 0px, 1px 98px, 37px 235px, 172px 235px, 214px 99px);
+}
+
+.header-container {
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 .header-accueil {
-  background: linear-gradient(to bottom, #00ff00, #006400);
+  background: linear-gradient(to bottom, #ff0000, #DC143C);
+  border-radius: 15%;
+  width : auto;
+  height : auto;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
+  color : white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.citation {
+  margin : 10px;
+  width : 75%;
+  
 }
 
 /* Biographie related elements */
 
 .biographie {
   text-align: center;
+  margin-top : 30px;
+  width : auto;
+  height : auto;
+  color : white;
 }
 
 .biographie h3 {
   font-weight: bold;
+  font-size: large;
   font-style: italic;
   padding: 15px;
 }
@@ -72,18 +114,54 @@ footer li {
 .biographie-element {
   margin: 30px;
   padding: 10px;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  border : white solid 3px;
+  color : white;
+  border-radius : 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .chapitre1 {
-  background-color: darkolivegreen;
+  background-color: rgb(127, 0, 0);
+}
+
+.bounty-description {
+  text-align: center;
+  display: inline-block;
+}
+
+.bounty-description dt{
+  font-weight: bold;
+}
+
+.bounty-description dd {
+  margin-bottom: 20px;
+}
+
+.chapitre1 img {
+  width : 70px;
+  height : 100px;
+  margin : 10px;
 }
 
 .chapitre2 {
-  background-color: olive;
+  background-color: rgb(207, 28, 0);
 }
 
+.character-list {
+  margin : 20px;
+  list-style-type: none;
+  display : inline-block;
+}
+
+.character-list li {
+  margin : 15px;
+}
+
+
 .chapitre3 {
-  background-color: olivedrab;
+  background-color: rgb(255, 2, 2)
 }
 
 /* Competance elements */
@@ -116,5 +194,9 @@ footer li {
 .cv-element li {
     margin: 5px
 }
+
+/* Galerie related */
+
+
 
 
